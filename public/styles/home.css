@@ -1,12 +1,10 @@
-body,
-html {
+body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
   color: white;
-  height: 100%;
-  /* background-image: url("https://placehold.co/1920x1080"); */
-  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url();
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.7));
   background-size: cover;
   background-position: center;
 }
@@ -103,6 +101,19 @@ h1 {
 }
 .cta-button:hover{
   background-color: rgb(240, 240, 240);
+}
+
+.div_section-creators {
+  display: flex;
+  gap: 20px;
+  padding: 0 1rem;
+}
+
+.div_section-creators > div {
+  width: 100%;
+  padding: 1rem;
+  background: rgb(42, 42, 42);
+  border-radius: 8px;
 }
 
 @media (max-width: 768px) {
