@@ -96,7 +96,7 @@ h1 {
   display: flex;
   gap: 20px;
   padding: 0 1rem;
-  /* background: red; */
+  margin: 1rem;
 }
 
 .div_section-creators > div {
