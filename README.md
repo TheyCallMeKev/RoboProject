@@ -28,6 +28,6 @@ git clone https://github.com/TheyCallMeKev/warling-y-bullet-los-mejores.git
 ```
 ## Autores
 
-- [@TheyCallMeBullet](https://www.github.com/TheyCallMeBullet)
+- [@TheyCallMeKev](https://www.github.com/TheyCallMeKev)
 
 - [@Warhub](https://www.github.com/warling-lopez)
