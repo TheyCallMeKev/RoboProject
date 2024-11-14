@@ -22,21 +22,21 @@ h1 {
 .main-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 20px 50px;
+  padding: 20px 100px;
 }
 
 .main-information {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 5rem 3rem;
+  padding: 10rem 3rem;
 }
 
 .left-side,
 .right-side {
   display: flex;
   justify-content: center;
-  width: 50%;
+  width: 40%;
 }
 
 .left-side {
@@ -91,7 +91,7 @@ h1 {
   margin: 20px 0;
 }
 .cta-button {
-  background-color: white;
+  background-color: rgb(236, 236, 236);
   color: black;
   border: none;
   border-radius: 20px;
@@ -100,7 +100,7 @@ h1 {
   cursor: pointer;
 }
 .cta-button:hover{
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(255, 255, 255);
 }
 
 .div_section-creators {
@@ -115,6 +115,10 @@ h1 {
   background: rgb(42, 42, 42);
   border-radius: 8px;
 }
+.robot-image {
+  filter: brightness(1.2);
+  filter: blur(0.01);
+}
 
 @media (max-width: 768px) {
   .nav-links,
@@ -125,6 +129,7 @@ h1 {
   .robot-image {
     width: 20px;
     height: 20px;
+    filter: brightness(0);
   }
 
   .main-container {
