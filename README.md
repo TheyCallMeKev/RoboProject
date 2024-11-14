@@ -19,12 +19,12 @@ Entre estas informaciones se incluyen:
 
 **Linux**
 ```
-git clone git@github.com:TheyCallMeKev/warling-y-bullet-los-mejores.git
+git clone git@github.com:TheyCallMeKev/RoboProject.git
 ```
 
 **Windows**
 ```
-git clone https://github.com/TheyCallMeKev/warling-y-bullet-los-mejores.git
+git clone https://github.com/TheyCallMeKev/RoboProject.git
 ```
 ## Autores
 
