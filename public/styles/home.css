@@ -41,11 +41,6 @@ h1 {
 .left-side {
   flex-direction: column;
 }
-
-.left-side .cta-button {
-
-}
-
 .navbar .nav-links a {
   color: white;
   text-decoration: none;
@@ -64,7 +59,7 @@ h1 {
   height: 2px;
   width: 0;
   background: white;
-  transition: width 0.5s;
+  transition: width 0.2s;
 }
 
 .navbar .nav-links a:hover::before {
@@ -86,16 +81,17 @@ h1 {
   margin: 20px 0;
 }
 .cta-button {
-  background-color: rgb(236, 236, 236);
+  background-color: rgb(255, 255, 255);
   color: black;
   border: none;
   border-radius: 20px;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  outline: none;
 }
 .cta-button:hover{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(213, 213, 213);
 }
 
 .div_section-creators {
@@ -130,9 +126,8 @@ h1 {
   }
 
   .robot-image {
-    width: 20px;
-    height: 20px;
-    filter: brightness(0);
+    width: 200px;
+    height: 200px;
   }
 
   .main-container {
