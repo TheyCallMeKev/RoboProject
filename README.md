@@ -9,6 +9,12 @@ Entre estas informaciones se incluyen:
 - Tecnologias utilizadas.
 - Información sobre nuestra empresa AstroCode.
 
+### tecnologias
+
+**HTML**
+**CSS**
+**JavaScript**
+
 ### Trabajar con el repositorio
 
 **Linux**
