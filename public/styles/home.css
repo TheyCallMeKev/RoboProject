@@ -20,7 +20,6 @@ body {
 h1 {
   margin-left: 15px;
 }
-
 .main-container {
   display: flex;
   flex-wrap: wrap;
@@ -44,7 +43,8 @@ h1 {
 .left-side {
   flex-direction: column;
 }
-.navbar .nav-links button {
+
+.navbar .nav_list-links a {
   color: white;
   text-decoration: none;
   margin: 0 15px;
@@ -55,7 +55,7 @@ h1 {
   cursor: pointer;
 }
 
-.navbar .nav-links button::before {
+.navbar .nav_list-links a::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -68,7 +68,7 @@ h1 {
   transition: width 0.2s;
 }
 
-.navbar .nav-links button:hover::before {
+.navbar .nav_list-links a:hover::before {
   width: 100%;
 }
 
@@ -157,24 +157,50 @@ footer {
 
 @media (max-width: 768px) {
   
-  .nav-links{
+  .nav_list-links{
+    position: relative;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 50px;
     position: fixed;
-    right: 0;
+    right: -400px;
     top: 0;
     background-color: rgb(115, 115, 40);
     width: 70%;
     height: 100vh;
     z-index: 1;
+    transition-duration: .5s ;
+  }
+  .nav_list-links > a{
+    top: 200px;
+    
   }
   #input_nav-BtnDelNavResponsive{
     display: none;
-  }#input_nav-BtnDelNavResponsive:checked ~ .nav-links{
-    left: 500px;
+    
+  }#input_nav-BtnDelNavResponsive:checked ~ .nav_list-links{
+    right: 0px;
+    transition: .5s;
+    
+  }
+  .nav_label-boxMenuResponsive{
+    position:fixed ;
+    border-radius: 10px;
+    top: 10px;
+    right:  -5px;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(115, 115, 40);
+    transition: .2s;
+    transform: .5s;
+    z-index: 2;
+  }#input_nav-BtnDelNavResponsive:checked ~ .nav_label-boxMenuResponsive{
+    transform: scaleX(-1);
+    padding: 10px 25px;
+    right: 250px;
+    transition: .5s ease-in-out;
+    
   }
   .robot-image {
     top: 50px;
