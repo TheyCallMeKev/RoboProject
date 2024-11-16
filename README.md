@@ -11,9 +11,9 @@ Entre estas informaciones se incluyen:
 
 ### tecnologias
 
-**HTML**
-**CSS**
-**JavaScript**
+- **HTML**
+- **CSS**
+- **JavaScript**
 
 ### Trabajar con el repositorio
 
