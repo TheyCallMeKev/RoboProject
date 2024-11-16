@@ -44,7 +44,7 @@ h1 {
   flex-direction: column;
 }
 
-.navbar .nav_list-links a {
+.navbar .nav_list-links button {
   color: white;
   text-decoration: none;
   margin: 0 15px;
@@ -55,7 +55,7 @@ h1 {
   cursor: pointer;
 }
 
-.navbar .nav_list-links a::before {
+.navbar .nav_list-links button::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -68,7 +68,7 @@ h1 {
   transition: width 0.2s;
 }
 
-.navbar .nav_list-links a:hover::before {
+.navbar .nav_list-links button:hover::before {
   width: 100%;
 }
 
