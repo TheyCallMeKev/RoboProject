@@ -156,7 +156,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-  
+  /*navegacion*/
   .nav_list-links{
     position: relative;
     display: flex;
@@ -176,6 +176,7 @@ footer {
     top: 200px;
     
   }
+  /*esta es la trasicion pricipal del nav*/
   #input_nav-BtnDelNavResponsive{
     display: none;
     
@@ -184,6 +185,7 @@ footer {
     transition: .5s;
     
   }
+  /*esta es la transicion del btn del nav*/
   .nav_label-boxMenuResponsive{
     position:fixed ;
     border-radius: 10px;
@@ -220,16 +222,27 @@ footer {
     justify-content: center;
     align-items: center;
   }
-
-  .left-side,
-  .right-side {
+  /*a partir de aqui cree hice que los creadores y colaboradores esten en un carrucel evitando el desborde y que se puedan ver con los margenes correctos*/
+  .left-side{
     display: flex;
     justify-content: center;
-    width: 75%;
+    width: 90%;
+    gap: 20px;
+
+  }
+  .right-side {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 90%;
   }
   .div_section-creators{
     width: 89%;
     overflow: hidden;
     overflow-x: auto;
+  }
+  /*en el responsive se veia muy flaco los creadores*/
+  .div_creator{
+    min-width: 300px;
   }
 }
