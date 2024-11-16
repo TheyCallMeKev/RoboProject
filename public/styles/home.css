@@ -44,15 +44,18 @@ h1 {
 .left-side {
   flex-direction: column;
 }
-.navbar .nav-links a {
+.navbar .nav-links button {
   color: white;
   text-decoration: none;
   margin: 0 15px;
   font-size: 16px;
   position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
-.navbar .nav-links a::before {
+.navbar .nav-links button::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -65,7 +68,7 @@ h1 {
   transition: width 0.2s;
 }
 
-.navbar .nav-links a:hover::before {
+.navbar .nav-links button:hover::before {
   width: 100%;
 }
 
@@ -144,7 +147,6 @@ h1 {
   padding: 1rem;
   background: rgb(42, 42, 42);
   border-radius: 8px;
-
 }
 
 footer {
