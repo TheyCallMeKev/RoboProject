@@ -71,7 +71,12 @@ h1 {
 .navbar .nav_list-links a:hover::before {
   width: 100%;
 }
-
+.nav_label-boxMenuResponsive{
+  display: none;
+}
+#input_nav-BtnDelNavResponsive{
+  display: none;
+}
 .navbar h1 {
   font-size: 24px;
   font-weight: bold;
@@ -166,7 +171,7 @@ footer {
     position: fixed;
     right: -400px;
     top: 0;
-    background-color: rgb(115, 115, 40);
+    background-color: rgb(164, 164, 41);
     width: 70%;
     height: 100vh;
     z-index: 1;
@@ -187,13 +192,14 @@ footer {
   }
   /*esta es la transicion del btn del nav*/
   .nav_label-boxMenuResponsive{
+    display: block;
     position:fixed ;
     border-radius: 10px;
     top: 10px;
     right:  -5px;
     margin: 0;
     padding: 10px;
-    background-color: rgb(115, 115, 40);
+    background-color: rgb(164, 164, 41);
     transition: .2s;
     transform: .5s;
     z-index: 2;
