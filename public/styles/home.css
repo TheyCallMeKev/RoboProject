@@ -177,7 +177,7 @@ footer {
     z-index: 1;
     transition-duration: .5s ;
   }
-  .nav_list-links > a{
+  .nav_list-links > button{
     top: 200px;
     
   }
