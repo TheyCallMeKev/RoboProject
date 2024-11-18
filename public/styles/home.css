@@ -45,6 +45,7 @@ h1 {
 }
 
 .navbar .nav_list-links button {
+  font-family: "Montserrat", sans-serif;
   color: white;
   text-decoration: none;
   margin: 0 15px;
